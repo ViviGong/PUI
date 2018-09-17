@@ -1,12 +1,13 @@
 
-body {
-    margin: 0;
-    color: teal;
-    background-color: teal;
-    color: white;
+#todo-lists {
+    margin: 0 auto;
+    width: 80%;
     font-family: 'Roboto', sans-serif;
 }
-/*********** HEADER ************/
+body {
+    margin: 0;
+    color:teal;
+}
 header {
     text-align: center;
     padding: 10px;
@@ -18,7 +19,6 @@ header {
 h1 {
     margin: 0;
 }
-/*********** LISTS ************/
 #todo-lists {
     margin: 0 auto;
     width: 80%;
@@ -39,12 +39,10 @@ header a {
     color: gold;
     text-decoration: none;
 }
-
 .list a {
     color: teal;
     text-decoration: none;
 }
-
 
 
 
