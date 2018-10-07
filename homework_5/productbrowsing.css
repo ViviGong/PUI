@@ -1,0 +1,97 @@
+/*header*/
+
+header {
+  color:white;
+  position: fixed;
+  width:100%;
+  height:80px;
+  z-index:10;
+  background-color: #F8E71C;
+  margin: 0 auto;
+}
+
+header .brandname{
+    position: relative;
+    left: 40px;
+    color: white;
+    font-size: 24px;
+    top: 20px;
+}
+
+header .nav{
+  width: 250px;
+  position: relative;
+  float: right;
+}
+
+nav {
+    position:relative;
+    top:120px;
+}
+
+nav .home{
+    position:relative;
+    left:30px;
+    display:inline-block;
+}
+#catharness {
+    color:yellow;
+}
+
+hr {
+    position:relative;
+    bottom:10px;
+    width:95%;
+    color:#9B9B9B;
+}
+
+nav .list{
+    position:relative;
+    font-family: "Helvetica";
+    color:#4A4A4A;
+}
+
+.featureicon{
+    position:relative;
+    bottom:80px;
+    float:right;
+    margin-right:50px;
+}
+
+/*porudct images&description*/
+.item .itemname{
+    margin-top: 10px;
+    margin-bottom:0;
+}
+
+.item .color{
+    color:#9B9B9B;
+    font-size:14px;
+    margin-bottom:4px;
+    margin-top:10px;
+}
+
+.item{
+    margin:30px 40px;
+}
+
+.products{
+    position:relative;
+    left:350px;
+    bottom:30px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
