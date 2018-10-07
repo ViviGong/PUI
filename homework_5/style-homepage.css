@@ -42,9 +42,11 @@ header .nav{
     font-size: 36px;
 }
 /*button: buy now*/
-.icon {
-  margin-top: 70px;
+.advertisement .icon{
+  margin-top:70px;
 }
+
+
 .advertisement p{
   margin:0 auto;
   width: 400px;
@@ -54,7 +56,7 @@ header .nav{
 /*products*/
 .item p {
     font-family: "Helvetica";
-    font-weight: 1000;
+    font-weight: bold;
     font-size: 18px;
     color: #9B9B9B;
     text-align: center;

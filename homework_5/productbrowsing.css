@@ -44,16 +44,22 @@ hr {
     width:95%;
     color:#9B9B9B;
 }
-
-nav .list{
+/*navigation bar*/
+ul{
     position:relative;
-    font-family: "Helvetica";
-    color:#4A4A4A;
+
+    list-style-type: none;
+}
+ul li{
+  font-family: "Helvetica";
+  color:#4A4A4A;
+  margin:20px;
+
 }
 
 .featureicon{
     position:relative;
-    bottom:80px;
+    bottom:110px;
     float:right;
     margin-right:50px;
 }
