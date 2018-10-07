@@ -18,12 +18,18 @@ header .brandname{
     top: 20px;
 }
 
+a{
+    text-decoration:none;
+    color:white;
+}
+
 header .nav{
   width: 250px;
   position: relative;
   float: right;
 }
 
+/*navigation bar on the left*/
 nav {
     position:relative;
     top:120px;
@@ -31,7 +37,7 @@ nav {
 
 nav .home{
     position:relative;
-    left:30px;
+    left:40px;
     display:inline-block;
 }
 
@@ -77,10 +83,10 @@ ul li{
 
 .information {
   width:360px;
-  height:400px;
+  height:50px;
   position: relative;
+  bottom:570px;
   float:right;
-  bottom:120px;
   right:40px;
 }
 

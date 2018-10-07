@@ -18,6 +18,11 @@ header .brandname{
     top: 20px;
 }
 
+a{
+  text-decoration:none;
+  color:white;
+}
+
 header .nav{
   width: 250px;
   position: relative;
@@ -31,7 +36,7 @@ nav {
 
 nav .home{
     position:relative;
-    left:30px;
+    left:40px;
     display:inline-block;
 }
 #catharness {
