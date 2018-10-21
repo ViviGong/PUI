@@ -1,0 +1,202 @@
+/*header*/
+
+header {
+  color:white;
+  position: fixed;
+  width:100%;
+  height:80px;
+  z-index:10;
+  background-color: #F8E71C;
+  margin: 0 auto;
+}
+
+header .brandname{
+    position: relative;
+    left: 40px;
+    color: white;
+    font-size: 24px;
+    top: 20px;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+header .nav{
+  width: 250px;
+  position: relative;
+  float: right;
+}
+
+/*navigation bar on the left*/
+nav {
+    position:relative;
+    top:120px;
+}
+
+nav .home{
+    position:relative;
+    left:40px;
+    display:inline-block;
+}
+
+hr {
+    position:relative;
+    bottom:10px;
+    width:95%;
+    color:#9B9B9B;
+}
+
+ul{
+    position:relative;
+    list-style-type: none;
+}
+
+ul li{
+  font-family: "Helvetica";
+  color:#4A4A4A;
+  margin:20px;
+
+}
+
+
+/*images*/
+.image1{
+  position:relative;
+  bottom:400px;
+  left:250px;
+}
+.image2{
+  position:relative;
+  bottom:240px;
+  left:100px;
+}
+.image3{
+  position:relative;
+  left: 100px;
+  bottom:100px;
+}
+
+
+/*product information*/
+
+.information {
+  width:360px;
+  height:50px;
+  position: relative;
+  bottom:570px;
+  float:right;
+  right:40px;
+}
+
+.information .title{
+  font-size:30px;
+  color:#4A4A4A;
+}
+
+.information .price{
+  margin-bottom:20px;
+}
+
+.information .description{
+  margin-top:0;
+  margin-bottom:10px;
+  margin-top:10px;
+}
+
+.information hr{
+  margin:0;
+}
+
+.information .size {
+  margin-top:10px;
+  margin-bottom:20px;
+}
+
+span{
+    display:inline-block;
+    padding:10px;
+    width:20px;
+    height:20px;
+    background-color: #F4F4F4;
+    text-align:center;
+  }
+
+span#active {
+  color:#fff;
+  background: #F8E71C;
+}
+
+.information img{
+  display: inline-block;
+  padding:5px;
+  margin-top:10px;
+  margin-bottom:20px;
+}
+
+.information img#selectedcolor{
+  border:2px solid #979797;
+  border-radius:25px;
+}
+/*.color img{
+*//*  border:2px solid #979797;
+  border-radius:25px;
+}*/
+input{
+  border-radius:10px;
+  padding:10px;
+}
+
+.button{
+  margin-top:2 0px;
+}
+
+.button img{
+  margin-top:10px;
+  margin-bottom:0px;
+}
+/*Details*/
+.detail{
+  position:relative;
+  left:40px;
+}
+
+.detail .title{
+  font-size:24px;
+}
+
+.detail .description{
+  margin:0 0;
+  color:#9B9B9B;
+  width:90%;
+}
+
+/*Reviews*/
+.reviews{
+  position:relative;
+  left:40px;
+}
+.reviews .title{
+  font-size:24px;
+}
+
+.reviews .description{
+  margin:0 0;
+  color:#9B9B9B;
+}
+.reviews img{
+  position:relative;
+  bottom:30px;
+  left:500px
+}
+
+
+
+
+
+
+
+
+
+

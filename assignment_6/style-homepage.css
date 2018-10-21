@@ -1,0 +1,79 @@
+body {
+
+    background-color: #FEFEFE;
+}
+/*header*/
+
+header {
+  color:white;
+  position: fixed;
+  width:100%;
+  height:80px;
+  z-index:10;
+  background-color: #F8E71C;
+  margin: 0 auto;
+}
+
+header .brandname{
+    position: relative;
+    left: 40px;
+    color: white;
+    font-size: 24px;
+    top: 20px;
+
+}
+
+header .nav{
+  width: 250px;
+  position: relative;
+  float: right;
+}
+
+
+
+/*advertisement*/
+.advertisement {
+    position:relative;
+    top:120px;
+    display: flex;
+    align-items: center;
+    height: 350px;
+    font-family: "Comic Sans MS";
+    font-size: 36px;
+}
+/*button: buy now*/
+.advertisement .icon{
+  margin-top:70px;
+}
+
+
+.advertisement p{
+  margin:0 auto;
+  width: 400px;
+  text-align:center;
+}
+
+/*products*/
+.item p {
+    font-family: "Helvetica";
+    font-weight: bold;
+    font-size: 18px;
+    color: #9B9B9B;
+    text-align: center;
+}
+
+.item {
+  margin: 30px 60px;
+}
+
+
+section.products{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position:relative;
+  top:180px;
+}
+
+
