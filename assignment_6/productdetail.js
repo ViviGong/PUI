@@ -1,11 +1,4 @@
-// // Change active id on product sizes.
-// $(document).ready(function(){
-//     $(".size span").click(function(){
-//         $('#active').removeAttr('id');
-//         $(this).attr("id","active");
-//         $('#colortext').text()
-//     })
-// })
+// Change sizetext and image state on product sizes.
 
 $(document).ready(function(){
     $(".size span").click(function(){
@@ -52,5 +45,11 @@ $(document).ready(function(){
     })
 })
 
-
+var cartcount = document.getElementById("quant")
+// Add to cart
+$(document).ready(function(){
+    $(".button #addtocart").click(function(){
+        $("#itemcount").html(cartcount)
+    })
+})
 
