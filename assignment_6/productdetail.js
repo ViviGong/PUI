@@ -59,7 +59,7 @@ function saveStatusLocally(){
     var currentnum = $("#feedback").text();
     console.log(currentnum);
     var quantityToSave = quantity.value;
-    if ((quantityToSave == null) || (quantityToSave =="")) {
+    if (quantityToSave =="") {
         document.getElementById('feedback').innerHTML = "";
     } else {
         localStorage.setItem("database", JSON.stringify(quantityToSave));
