@@ -45,11 +45,33 @@ $(document).ready(function(){
     })
 })
 
-var cartcount = document.getElementById("quant")
-// Add to cart
-$(document).ready(function(){
-    $(".button #addtocart").click(function(){
-        $("#itemcount").html(cartcount)
-    })
+
+var quantity = document.getElementById('qty');
+
+$('#addtocart').on("click", function(){
+    saveStatusLocally()
 })
+
+
+function saveStatusLocally(){
+    var quantityToSave = quantity.value;
+    if ((quantityToSave == null) || (quantityToSave =="")) {
+        document.getElementById('feedback').innerHTML = "";
+    } else {
+        localStorage.setItem("database", JSON.stringify(quantityToSave));
+        console.log(
+            localStorage.getItem('database'));
+        document.getElementById('feedback').innerHTML = localStorage.getItem('database');
+    }
+}
+
+
+
+
+
+
+
+
+
+
 

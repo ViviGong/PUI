@@ -94,7 +94,7 @@ hr {
 .checkout{
   float:right;
   position:relative;
-  bottom:500px;
+  top:20px;
   right:50px;
 }
 
