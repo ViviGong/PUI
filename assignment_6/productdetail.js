@@ -48,12 +48,16 @@ $(document).ready(function(){
 
 var quantity = document.getElementById('qty');
 
-$('#addtocart').on("click", function(){
-    saveStatusLocally()
+$(document).ready(function(){
+    $('#addtocart').click(function(){
+        saveStatusLocally()
+    })
 })
 
 
 function saveStatusLocally(){
+    var currentnum = $("#feedback").text();
+    console.log(currentnum);
     var quantityToSave = quantity.value;
     if ((quantityToSave == null) || (quantityToSave =="")) {
         document.getElementById('feedback').innerHTML = "";
@@ -64,6 +68,7 @@ function saveStatusLocally(){
         document.getElementById('feedback').innerHTML = localStorage.getItem('database');
     }
 }
+
 
 
 
