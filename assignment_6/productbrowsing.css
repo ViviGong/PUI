@@ -30,9 +30,13 @@ header .nav{
 }
 
 #feedback{
-  color:red;
+  color:white;
+  border-radius: 50%;
+  background: red;
+  text-align: center;
+  padding:3px;
+  font-size:12px;
 }
-
 .nav p{
   display:inline;
 }

@@ -4,6 +4,9 @@
     <title>Muddy Paws</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="shoppingcart.css"/>
+    <!-- javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="productdetail.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -13,7 +16,7 @@
         </div>
         <div class="nav">
             <img class="nav-icon" src="../assignment_6/link/search.png" width="15" height="15" alt="image">&nbsp;|&nbsp;log in &nbsp;|&nbsp;sign up &nbsp;|
-            <img class="nav-icon" src="../assignment_6/link/cart.png" width="15" height="15" alt="image">
+            <img class="nav-icon" src="../assignment_6/link/cart.png" width="15" height="15" alt="image"><p id="feedback" type="number">0<p>
         </div>
     </header>
 <!-- Back -->
@@ -26,14 +29,16 @@
         <img id="image" src="link/1.png">
         <div class="info">
             <p id="item">Cat Harness1</p>
-            <p id="description">Color: </p><div id="selectedColor"></div>
-            <p id="description">Size: </p><div id="selectedSize"></div>
-            <p id="description">Quantity: </p><div id="selectedQty"></div>
-            <p id="price"></p>
+<!--             <p id="description">Color: </p> <div id="selectedColor"></div>
+            <p id="description">Size: </p> <div id="selectedSize"></div> -->
+            <p>Quantity: </p>
+            <p id="selectedQty">0</p>
+            <p>Price: </p>
+            <p id="total_price">0</p>
         </div>
     </div>
     <div class="checkout">
-        <img src="link/summary.png">
+        <img src="link/checkout.png">
     </div>
 
 

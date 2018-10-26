@@ -89,18 +89,23 @@ hr {
   position:relative;
   bottom:50px;
 }
+.info p{
+  display: inline=block;
+}
+
 
 /*Checkout*/
 .checkout{
   float:right;
   position:relative;
-  bottom:100px;
+  top:50px;
   right:50px;
 }
 
 
 #feedback{
   color:white;
+  width:23px;
   border-radius: 50%;
   background: red;
   text-align: center;
@@ -109,9 +114,8 @@ hr {
 }
 
 
-
-
-
-
+.nav p{
+  display:inline;
+}
 
 
