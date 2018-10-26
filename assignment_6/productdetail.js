@@ -46,28 +46,32 @@ $(document).ready(function(){
 })
 
 
-var quantity = document.getElementById('qty');
 
 $(document).ready(function(){
+    var cart_current = parseInt(JSON.parse(localStorage.getItem("database")));
+    if (cart_current > 0) {
+        $("#feedback").text(cart_current);
+    } else {
+        $("#feedback").text("0");
+    }
+    var cart_total = parseInt($("#feedback").text());
+    console.log(cart_total);
     $('#addtocart').click(function(){
-        saveStatusLocally()
+        var itemCount = parseInt($('#qty').val());
+        if (itemCount =="") {
+            $("#feedback").innerHTML = "";
+        } else {
+            cart_total = cart_total + itemCount;
+            localStorage.setItem("database", JSON.stringify(cart_total));
+            console.log(
+                localStorage.getItem('database'));
+            $('#feedback').text(cart_total);
+        }
     })
 })
 
 
-function saveStatusLocally(){
-    var currentnum = $("#feedback").text();
-    console.log(currentnum);
-    var quantityToSave = quantity.value;
-    if (quantityToSave =="") {
-        document.getElementById('feedback').innerHTML = "";
-    } else {
-        localStorage.setItem("database", JSON.stringify(quantityToSave));
-        console.log(
-            localStorage.getItem('database'));
-        document.getElementById('feedback').innerHTML = localStorage.getItem('database');
-    }
-}
+
 
 
 

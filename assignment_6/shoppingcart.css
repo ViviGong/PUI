@@ -94,14 +94,19 @@ hr {
 .checkout{
   float:right;
   position:relative;
-  top:20px;
+  bottom:100px;
   right:50px;
 }
 
 
-
-
-
+#feedback{
+  color:white;
+  border-radius: 50%;
+  background: red;
+  text-align: center;
+  padding:3px;
+  font-size:12px;
+}
 
 
 

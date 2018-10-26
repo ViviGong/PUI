@@ -31,6 +31,17 @@ header .nav{
 .nav p{
   display:inline;
 }
+
+
+#feedback{
+  color:white;
+  border-radius: 50%;
+  background: red;
+  text-align: center;
+  padding:3px;
+  font-size:12px;
+}
+
 /*navigation bar on the left*/
 nav {
     position:relative;
@@ -192,6 +203,7 @@ input{
   bottom:30px;
   left:500px
 }
+
 
 
 

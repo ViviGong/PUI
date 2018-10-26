@@ -29,6 +29,14 @@ header .nav{
   float: right;
 }
 
+#feedback{
+  color:red;
+}
+
+.nav p{
+  display:inline;
+}
+
 nav {
     position:relative;
     top:120px;
@@ -93,7 +101,6 @@ ul li{
     display:flex;
     flex-wrap:wrap;
 }
-
 
 
 
