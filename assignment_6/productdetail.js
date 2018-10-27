@@ -45,18 +45,18 @@ $(document).ready(function(){
     })
 })
 
-var cat_harness_1 = {
-    color: "Strawberry",
-    size: "Tiny",
-    Quantity: 0
-}
+// var cat_harness_1 = {
+//     color: "Strawberry",
+//     size: "Tiny",
+//     Quantity: 0
+// }
 
 
-function cat_harness_1(color, size, quantity) {
-    this.color = color,
-    this.size = size,
-    this.quantity = quantity
-}
+// function cat_harness_1(color, size, quantity) {
+//     this.color = color,
+//     this.size = size,
+//     this.quantity = quantity
+// }
 
 
 $(document).ready(function(){
@@ -91,10 +91,6 @@ $(document).ready(function(){
             // var color = $(this).siblings(".color");
             // var size = $(this).siblings(".size");
             // var quantity = $(this).quantity(".quantity");
-
-
-
-
         }
     })
 })
