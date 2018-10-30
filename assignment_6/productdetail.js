@@ -1,7 +1,8 @@
 // Change sizetext and image state on product sizes.
 
+
 $(document).ready(function(){
-    $(".size span").click(function(){
+    $(".sizes span").click(function(){
         if (this.id === "t") {
             $('#sizetext').text("Size: Tiny");
         }
@@ -14,7 +15,7 @@ $(document).ready(function(){
         else if(this.id ==="l"){
             $('#sizetext').text("Size: Large");
         }
-        $(".size span").css({"background-color":"#F4F4F4","color":"black"});
+        $(".sizes span").css({"background-color":"#F4F4F4","color":"black"});
         $(this).css({"background-color":"#F8E71C","color":"#fff"
                         });
 
@@ -25,7 +26,7 @@ $(document).ready(function(){
 // Change colorname and image on click
 
 $(document).ready(function(){
-    $(".color img").click(function(){
+    $(".colors img").click(function(){
         if (this.id === "2") {
             $('#colortext').text("Color: Blackberry");
         }
@@ -38,25 +39,13 @@ $(document).ready(function(){
         else if(this.id ==="1"){
             $('#colortext').text("Color: Strawberry");
         }
-        $(".color img").css({"border":"0px"});
+        $(".colors img").css({"border":"0px"});
         $(this).css({"border":"2px solid #979797",
                         "border-radius":"25px"});
 
     })
 })
 
-// var cat_harness_1 = {
-//     color: "Strawberry",
-//     size: "Tiny",
-//     Quantity: 0
-// }
-
-
-// function cat_harness_1(color, size, quantity) {
-//     this.color = color,
-//     this.size = size,
-//     this.quantity = quantity
-// }
 
 
 $(document).ready(function(){
@@ -74,6 +63,9 @@ $(document).ready(function(){
     var cart_total = parseInt($("#feedback").text());
     console.log(cart_total);
 
+
+// get name, quantitity and price from html
+// set local storage
     $('#addtocart').click(function(){
         var itemCount = parseInt($('#qty').val());
         if (itemCount =="") {
@@ -87,32 +79,51 @@ $(document).ready(function(){
                 localStorage.getItem('database'));
             $('#feedback').text(cart_total);
 
-            // $('#selectedQty').text(cart_total)
-            // var color = $(this).siblings(".color");
-            // var size = $(this).siblings(".size");
-            // var quantity = $(this).quantity(".quantity");
         }
     })
 })
 
+$(document).ready(function(){
+    $(".color").click(function(){
+        console.log($(this).attr("data-color"));
+        var color = $(this).attr("data-color")
+        if(typeof item == "undefined"){
+            console.log("no item!");
+            item = new Item();
+        }
+
+        item.color = color;
+        console.log("item: ", item);
+
+    });
+
+
+    $(".size").click(function(){
+        console.log($(this).text());
+        var size = $(this).text();
+
+
+        if(typeof item == "undefined"){
+            console.log("no item!");
+            item = new Item();
+        }
+
+        item.size = size;
+        console.log("item: ", item);
+
+    });
+});
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+var Item = function(){
+    this.name = null;
+    this.color = null;
+    this.size = null;
+    this.count = null;
+    this.price = null;
+}
 
 
 
