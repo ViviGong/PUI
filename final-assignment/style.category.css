@@ -43,7 +43,10 @@ a:hover{
     padding-right:2px !important;
     margin:0px !important;
 }
-
+.col-sm-4 h1{
+    margin-top:60px;
+    vertical-align:middle;
+}
 .col-sm-6 {
     padding:2px !important;
     margin:0px !important;
@@ -131,7 +134,11 @@ a:hover{
 }
 
 
-
+.ml10 .letter {
+  display: inline-block;
+  line-height: 1em;
+  transform-origin: 0 0;
+}
 
 
 
