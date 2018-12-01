@@ -4,11 +4,11 @@ body,html{
     font-family:'Source Sans Pro', sans-serif !important;
 
 }
-.container {
+/*.container {
     margin-right:0px !important;
     margin-left:0px !important;
-}
-.col-sm-8 h1 {
+}*/
+.col-sm-6 h1 {
     position: absolute;
     top: 8px;
     left:30px;
@@ -17,10 +17,10 @@ body,html{
     font-weight:600;
 }
 
-.col-sm-4 {
+.col-sm-6 {
     padding-left:30px !important;
 }
-.col-sm-4 h1{
+.col-sm-6 h2{
     margin-top:45px !important;
     font-size:25px !important;
 }
@@ -33,9 +33,10 @@ img {
 p{
     font-size:18px !important;
     margin-top:8px !important;
-    padding-top:30px !important;
-    padding-left:60px !important;
+    padding-top:2% !important;
+    padding-left:3% !important;
     width:100%;
+    padding-right:6% !important;
 
 }
 
@@ -43,15 +44,18 @@ p{
     margin-bottom:40px;
 }
 
-.col-sm-4 a:link {
+.col-sm-6 a:link {
     color:gray;
 }
 
-.col-sm-4 a:hover{
+.col-sm-6 a:hover{
     color:Maroon !important;
 }
 
-
+.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
 
 
 
