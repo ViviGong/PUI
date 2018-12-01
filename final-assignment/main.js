@@ -19,3 +19,8 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 1000
 });
+
+
+setTimeout(function(){
+    $('.title').addClass('magictime swashIn');
+}, 1000);
